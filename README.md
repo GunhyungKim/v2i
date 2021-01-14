@@ -3,9 +3,9 @@
 viedo to image
 
 prerequire
-    cv2-python
-    tqdm
-    glob
+        cv2-python
+        tqdm
+        glob
 
 
 
