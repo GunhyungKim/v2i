@@ -39,8 +39,6 @@ for vid in tqdm(glob.glob(dir + '\\' + video)):
         if ret:
             if (i % fps) == 0:
                 cv2.imwrite(img + '\\img_' + str(i) + '.jpg', frame)
-                f=open(img + '\\img_' + str(i) + '.txt', 'wt')
-                f.close()
             i += 1
 
         else:
