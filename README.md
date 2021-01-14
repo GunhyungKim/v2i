@@ -3,10 +3,8 @@
 viedo to image
 
 prerequire
-        cv2-python
-        tqdm
-        glob
-
-
+opencv-python
+tqdm
+glob
 
     usage : ./v2i.py -d <dir> -f <number>
